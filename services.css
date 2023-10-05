@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: rgb(174,238,224);
+    background: radial-gradient(circle, rgba(174,238,224,1) 0%, rgba(148,187,233,1) 10%);
+    font-family: 'Young Serif', serif;
+}
+
+h1{
+    text-align: center;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+ 
+}
+
+p{
+    text-align: center;
+    font-size: small;
+    font-style: italic;
+}
+nav ul{
+    list-style-type: none;
+    text-align: right;
+}
+nav li{
+    display: inline;
+    margin-right: 20px;
+    text-align: right;
+    font-size: 14px;
+}
+nav a{
+    text-decoration: none;
+    color:black;
+    padding: 2px;
+    text-align: inherit;
+}
+form{
+    text-align: center;
+    cursor: pointer;
+    text-transform: none;
+    border-radius: 2px;
+    border: none;
+    border-width: 5px;
+}
+footer{
+    color:black;
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+ol{
+    margin: 20px;
+}
+
+ul{
+    margin: 20px;
+}
